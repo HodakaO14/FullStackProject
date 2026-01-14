@@ -1,0 +1,68 @@
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.image, .textAndLogin {
+    width: 50%;
+    padding: 10px;
+}
+.image {
+    margin: -8px;
+    margin-top: -17px;
+    margin-left: -18px;
+    margin-bottom: -100px;
+    height: 117.75%;
+    
+}
+
+.textAndLogin h1 {
+    color: rgb(47, 136, 77);
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 37.5%;
+    
+}
+
+.textAndLogin {
+    background-image: url(src/login_book.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 116%;
+    margin-top: -11px;
+    margin-bottom: -1000px;
+    
+}
+
+
+.textAndLogin form 
+{
+    justify-content: center;
+    height: 20%;
+}
+
+.textAndLogin img {
+    width: 250px;
+    margin-bottom: -200px;
+    margin-top: 25px;
+}
+
+
+.textAndLogin input[type=email] {
+    width: 50%;
+    padding: 10px;
+    border-radius: 47px;
+}
+
+.textAndLogin input[type=password] {
+    width: 50%;
+    padding: 10px;
+    border-radius: 47px;
+}
+
+.textAndLogin button {
+    padding: 15px;
+    width: 25%;
+    border-radius: 15px;
+    background-color: rgb(47, 136, 77);
+}
